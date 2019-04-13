@@ -1,0 +1,21 @@
+.card{
+    width: 20%;
+    background-color: #f7f7f7;
+    color: rgba(0,0,0,0.87);
+    margin: 2% auto;
+    .content{
+        width: 100%;
+        background-color: lavender;
+        margin-bottom: 0px !important;
+        border-radius: 5px;
+        h2{
+            margin-left: 5px;
+        }
+    }
+    .actions{
+        .botones{
+            width: 30%;
+            margin: 4px;
+        }
+    }
+}
