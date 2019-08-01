@@ -31,8 +31,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Generar despliegue
 
 #### Requerimientos:
-	 - JDK 1.8.065
-	 - Apache Maven
+	 JDK 1.8.0_65 + o superior
+	 Apache Maven
 
 #### 	Paso a paso:
 * **Abrir una consola de comandos**
@@ -41,7 +41,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 **```mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente```**
 
 
-	Reemplazar los parametros con los siguientes permitidos 
+	Reemplazar los parametros con uno de los valores permitidos. 
 
 	| Parametro | Valores (Permitidos) |
 	| --- | --- |
