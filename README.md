@@ -37,8 +37,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #### 	Paso a paso:
 * **Abrir una consola de comandos**
 * **Ubicarse en la ruta del proyecto**
-* **Ejecutar el comando de maven** \
-**```mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente```**
+* **Ejecutar el comando de maven**
+```bash
+mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente
+```
 
 
 	Reemplazar los parametros con los siguientes permitidos 
@@ -48,9 +50,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 	| `ambiente` | **local - desa - test - prod** |
 	| `servidor_aplicaciones` | **weblogic - jboss** |
 	| `codigo_cliente` | **AAA - ASAA - AMAGUA - MZL** |
-
-
-
-```bash
-mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente
-```
