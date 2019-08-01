@@ -37,10 +37,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #### 	Paso a paso:
 * **Abrir una consola de comandos**
 * **Ubicarse en la ruta del proyecto**
-* **Ejecutar el comando de maven**
-```bash
-mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente
-```
+* **Ejecutar el siguiente comando:** \
+**```mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente```**
 
 
 	Reemplazar los parametros con los siguientes permitidos 
