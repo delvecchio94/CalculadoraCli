@@ -25,26 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-# Amerika Servicios
-
-## Generar despliegue
-
-#### Requerimientos:
-	 JDK 1.8.0_65 + o superior
-	 Apache Maven
-
-#### 	Paso a paso:
-* **Abrir una consola de comandos**
-* **Ubicarse en la ruta del proyecto**
-* **Ejecutar el siguiente comando:** \
-**```mvn clean install -Denv = ambiente  -Dserver = servidor_aplicaciones  -DcodCliente = codigo_cliente```**
-
-
-	Reemplazar los parametros con uno de los valores permitidos. 
-
-	| Parametro | Valores (Permitidos) |
-	| --- | --- |
-	| `ambiente` | **local - desa - test - prod** |
-	| `servidor_aplicaciones` | **weblogic - jboss** |
-	| `codigo_cliente` | **AAA - ASAA - AMAGUA - MZL** |
